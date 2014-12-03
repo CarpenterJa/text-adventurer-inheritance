@@ -2,7 +2,7 @@ public class WoodElf extends Strong {
 	public WoodElf() {
 		bosses = (BossFight) new NoBossFight();
 		life = 3;
-		attack = 10;
+		attack=10;
 		sneak = 5;
 		items= "potion of healing," + "gold coin," + " and a lootsack";
 

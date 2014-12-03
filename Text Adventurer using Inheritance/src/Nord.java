@@ -11,7 +11,8 @@ public class Nord extends Strong{
 	@Override 
 	public void fightMonster()
 	{
-		System.out.println("You fight a giant cave spider and win with just 5 out of 6 life.");
+		super.life(5);
+		System.out.println("You fight a giant cave spider and win with just 5 out of " + life + " life.");
 	}
 	@Override
 	public void pickPocket()

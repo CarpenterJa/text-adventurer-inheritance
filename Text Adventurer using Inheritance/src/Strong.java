@@ -7,4 +7,9 @@ public abstract class Strong extends StartOfGame{
 		
 	}
 
+	public void life(int i) {
+		life=5;
+		
+	}
+
 }
